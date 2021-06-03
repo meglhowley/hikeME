@@ -31,6 +31,15 @@ export default class Home extends Component {
     this.setState({ comments: res.data })
   }
 
+  deleteTrail = async () => {
+    console.log(this.state.trail_id)
+    const res = await axios.delete(
+      `${BASE_URL}/api/trails/delete/${this.state.trail_id}`
+    )
+    this.props.history.push('/search')
+    console.log('deleted!')
+  }
+
   componentDidMount() {
     this.getTrails()
     this.getAllComments()
@@ -42,6 +51,8 @@ export default class Home extends Component {
       <div>
         <Nav />
         <h1>{this.state.trail.name}</h1>
+        <button onClick={this.deleteTrail}>delete</button>
+        <br />
         <img className="more-info-img" src={this.state.trail.image}></img>
         <CommentForm trail_id={this.state.trail_id} />
         <CommentList {...this.state} />

@@ -192,3 +192,19 @@ body {
   text-align: center;
   width: 500px;
 }
+
+.exit {
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  border: transparent;
+  margin-left: 500px;
+  border-radius: 50px;
+  margin-top: -200px;
+}
+
+.exit:hover {
+  color: black;
+  border: solid 1px black;
+  background-color: white;
+}
