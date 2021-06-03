@@ -76,6 +76,16 @@ const createComment = async (req, res) => {
   res.send(comment)
 }
 
+const createTrail = async (req, res) => {
+  try {
+    const trail = await new Trail(req.body)
+    await trail.save()
+    return res.status(200).json({ trail })
+  } catch (error) {
+    res.status(500).send(error.message)
+  }
+}
+
 module.exports = {
   getTrails,
   findTrails,
