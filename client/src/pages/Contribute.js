@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import BASE_URL from '../globals'
-
+import Nav from '../components/Nav'
 
 class Contribute extends Component {
   constructor() {
@@ -11,179 +11,124 @@ class Contribute extends Component {
       length: '',
       elevationGain: '',
       location: '',
-      difficulty: '',
-      routeType: '',
+      difficulty: 'test',
+      routeType: 'test',
       description: ''
+    }
   }
 
   createTrail = async (res, req) => {
     res = await axios.post(`${BASE_URL}/api/trails/create`, {
-    name: this.state.name,
-    length: this.state.length,
-    elevationGain: this.state.elevationGain,
-    location: this.state.location,
-    difficulty: this.state.difficulty,
-    routeType: this.state.routeType,
-    description: this.state.location,
-    image: 'https://img.freepik.com/free-vector/mountains-landscape-sundown_52683-24164.jpg?size=626&ext=jpg',
+      name: this.state.name,
+      length: this.state.length,
+      elevationGain: this.state.elevationGain,
+      location: this.state.location,
+      difficulty: this.state.difficulty,
+      routeType: this.state.routeType,
+      description: this.state.location,
+      image:
+        'https://img.freepik.com/free-vector/mountains-landscape-sundown_52683-24164.jpg?size=626&ext=jpg'
     })
-    this.props.history.push('/')
+    this.props.history.push('/search')
   }
 
-  handleClick = (e) => {
+  handleSubmit = (e) => {
     e.preventDefault()
-    this.postRestaurants()
+    this.createTrail()
   }
 
   handleChangeName = async (e) => {
     await this.setState({ name: e.target.value })
+    console.log(e.target.value)
   }
 
-  handleChangeCategory = async (e) => {
-    await this.setState({ category: e.target.value })
+  handleChangeLength = async (e) => {
+    await this.setState({ length: e.target.value })
+    console.log(e.target.value)
   }
 
-  handleChangeMenuItem1Name = async (e) => {
-    await this.setState((prevState) => ({
-      menuItem1: {
-        ...prevState.menuItem1,
-        name: e.target.value
-      }
-    }))
+  handleChangeElevationGain = async (e) => {
+    await this.setState({ elevationGain: e.target.value })
+    console.log(e.target.value)
   }
 
-  handleChangeMenuItem1Price = async (e) => {
-    await this.setState((prevState) => ({
-      menuItem1: {
-        ...prevState.menuItem1,
-        price: e.target.value
-      }
-    }))
+  handleChangeLocation = async (e) => {
+    await this.setState({ location: e.target.value })
+    console.log(e.target.value)
   }
 
-  handleChangeMenuItem2Name = async (e) => {
-    await this.setState((prevState) => ({
-      menuItem2: {
-        ...prevState.menuItem2,
-        name: e.target.value
-      }
-    }))
-  }
-
-  handleChangeMenuItem2Price = async (e) => {
-    await this.setState((prevState) => ({
-      menuItem2: {
-        ...prevState.menuItem2,
-        price: e.target.value
-      }
-    }))
-  }
-
-  handleChangeMenuItem3Name = async (e) => {
-    await this.setState((prevState) => ({
-      menuItem3: {
-        ...prevState.menuItem3,
-        name: e.target.value
-      }
-    }))
-  }
-
-  handleChangeMenuItem3Price = async (e) => {
-    await this.setState((prevState) => ({
-      menuItem3: {
-        ...prevState.menuItem3,
-        price: e.target.value
-      }
-    }))
+  handleChangeDescription = async (e) => {
+    await this.setState({ description: e.target.value })
+    console.log(e.target.value)
   }
 
   componentDidMount() {
-    this.postRestaurants()
+    document.body.style.background =
+      "url('https://picjumbo.com/wp-content/uploads/snowy-mountain-peak-with-sunrise-glow-2210x1243.jpg')"
+    document.body.style.backgroundSize = 'cover'
+    document.body.style.backgroundRepeat = 'no-repeat'
   }
 
   render() {
     return (
       <div>
-        <form onSubmit={this.handleClick} className="form-page">
+        <Nav />
+        <h1>THANK YOU</h1>
+        <img
+          className="mtn-png"
+          src="https://lh3.googleusercontent.com/proxy/NXCcnZWPPJwAAv6VEkAiNWy8bSc2MOALJS_HYtvibi4ifMVNf6mTACWJee0tg91HDaDemUYTULQHTECPujTlSqRfe2sePZe9_ZnUEhnLzZTOne8ciwUDEhgM7n5ONoZrQt7SwCdvRdu8UzqRtZcLAQDuxAivEcfEa5kh"
+        />
+        <p>
+          For contributing to our collection. Our community's contributions help
+          to ensure we stay relevant and up-to-date. Please tell us more about
+          your trail-less-traveled:
+        </p>
+        <form onSubmit={this.handleSubmit} className="form-trail">
           <div>
-            <h3>what's your restaurants name?</h3>
-            <TextInput
+            <input
               type="text"
               value={this.state.name}
               onChange={this.handleChangeName}
-              name={'name'}
-              placeholder={'name'}
+              name={'trail name'}
+              placeholder={'trail name'}
             />
           </div>
           <div>
-            <h3>what type of food do you make?</h3>
-            <TextInput
+            <input
               type="text"
-              value={this.state.category}
-              onChange={this.handleChangeCategory}
-              name={'category'}
-              placeholder={'category'}
+              value={this.state.length}
+              onChange={this.handleChangeLength}
+              name={'length'}
+              placeholder={'length (in miles)'}
+            />
+            <span>miles</span>
+          </div>
+          <div>
+            <input
+              type="text"
+              value={this.state.elevationGain}
+              onChange={this.handleChangeElevationGain}
+              name={'elevation gain'}
+              placeholder={'elevation gain (in feet)'}
+            />
+            <span>feet</span>
+          </div>
+          <div>
+            <input
+              type="text"
+              value={this.state.location}
+              onChange={this.handleChangeLocation}
+              name={'location'}
+              placeholder={'Google Maps trailhead link (if you have it!)'}
             />
           </div>
           <div>
-            <h3 className="menu-header">what's on the menu?</h3>
-            <h4>item 1</h4>
-            <TextInput
+            <input
               type="text"
-              value={this.state.menuItem1.name}
-              onChange={this.handleChangeMenuItem1Name}
-              name={'name'}
-              placeholder={'menu item name'}
-            />
-          </div>
-          <div>
-            <h4>price</h4>
-            <TextInput
-              type="text"
-              value={this.state.menuItem1['price']}
-              onChange={this.handleChangeMenuItem1Price}
-              name={'name'}
-              placeholder={'price'}
-            />
-          </div>
-          <div>
-            <h4>item 2</h4>
-            <TextInput
-              type="text"
-              value={this.state.menuItem2['name']}
-              onChange={this.handleChangeMenuItem2Name}
-              name={'name'}
-              placeholder={'menu item name'}
-            />
-          </div>
-          <div>
-            <h4>price</h4>
-            <TextInput
-              type="text"
-              value={this.state.menuItem2['price']}
-              onChange={this.handleChangeMenuItem2Price}
-              name={'name'}
-              placeholder={'price'}
-            />
-          </div>
-          <div>
-            <h4>item 3</h4>
-            <TextInput
-              type="text"
-              value={this.state.menuItem3['name']}
-              onChange={this.handleChangeMenuItem3Name}
-              name={'name'}
-              placeholder={'Menu Item Name'}
-            />
-          </div>
-          <div>
-            <h4>price</h4>
-            <TextInput
-              type="text"
-              value={this.state.menuItem3['price']}
-              onChange={this.handleChangeMenuItem3Price}
-              name={'name'}
-              placeholder={'Price'}
+              value={this.state.description}
+              onChange={this.handleChangeDescription}
+              name={'description'}
+              placeholder={'description'}
             />
           </div>
           <button id="form-button" className="submit-btn">

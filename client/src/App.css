@@ -153,3 +153,7 @@ body {
 .difficulty-text {
   border: none;
 }
+
+.main-container-form {
+  border: 1px solid black;
+}
