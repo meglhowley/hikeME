@@ -154,6 +154,34 @@ body {
   border: none;
 }
 
-.main-container-form {
-  border: 1px solid black;
+.thank-you-div {
+  width: 40%;
+  height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Economica', sans-serif;
+  font-size: 2em;
+  color: white;
+  padding-top: -20px;
+}
+
+.p-thank-you {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: -20px;
+  font-size: 0.7em;
+}
+
+.thank-you-text {
+  margin-top: 10px;
+  font-size: 100px;
+}
+
+.form-trail {
+  border: 1px solid;
+  width: 800px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
 }

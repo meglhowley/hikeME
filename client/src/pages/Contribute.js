@@ -73,18 +73,18 @@ class Contribute extends Component {
     return (
       <div>
         <Nav />
-        <h1>THANK YOU</h1>
-        <img
-          className="mtn-png"
-          src="https://lh3.googleusercontent.com/proxy/NXCcnZWPPJwAAv6VEkAiNWy8bSc2MOALJS_HYtvibi4ifMVNf6mTACWJee0tg91HDaDemUYTULQHTECPujTlSqRfe2sePZe9_ZnUEhnLzZTOne8ciwUDEhgM7n5ONoZrQt7SwCdvRdu8UzqRtZcLAQDuxAivEcfEa5kh"
-        />
-        <p>
-          For contributing to our collection. Our community's contributions help
-          to ensure we stay relevant and up-to-date. Please tell us more about
-          your trail-less-traveled:
-        </p>
-        <form onSubmit={this.handleSubmit} className="form-trail">
-          <div>
+        <div className="thank-you-div">
+          <h1 className="thank-you-text">thank you</h1>
+          <div className="p-thank-you">
+            <p>
+              For contributing to our collection. Our community's contributions
+              help to ensure we stay relevant and up-to-date. Please tell us
+              more about your trail-less-traveled:
+            </p>
+          </div>
+        </div>
+        <div className="form-trail">
+          <form onSubmit={this.handleSubmit}>
             <input
               type="text"
               value={this.state.name}
@@ -92,49 +92,49 @@ class Contribute extends Component {
               name={'trail name'}
               placeholder={'trail name'}
             />
-          </div>
-          <div>
-            <input
-              type="text"
-              value={this.state.length}
-              onChange={this.handleChangeLength}
-              name={'length'}
-              placeholder={'length (in miles)'}
-            />
-            <span>miles</span>
-          </div>
-          <div>
-            <input
-              type="text"
-              value={this.state.elevationGain}
-              onChange={this.handleChangeElevationGain}
-              name={'elevation gain'}
-              placeholder={'elevation gain (in feet)'}
-            />
-            <span>feet</span>
-          </div>
-          <div>
-            <input
-              type="text"
-              value={this.state.location}
-              onChange={this.handleChangeLocation}
-              name={'location'}
-              placeholder={'Google Maps trailhead link (if you have it!)'}
-            />
-          </div>
-          <div>
-            <input
-              type="text"
-              value={this.state.description}
-              onChange={this.handleChangeDescription}
-              name={'description'}
-              placeholder={'description'}
-            />
-          </div>
-          <button id="form-button" className="submit-btn">
-            submit
-          </button>
-        </form>
+            <div>
+              <input
+                type="text"
+                value={this.state.length}
+                onChange={this.handleChangeLength}
+                name={'length'}
+                placeholder={'length (in miles)'}
+              />
+              <span>miles</span>
+            </div>
+            <div>
+              <input
+                type="text"
+                value={this.state.elevationGain}
+                onChange={this.handleChangeElevationGain}
+                name={'elevation gain'}
+                placeholder={'elevation gain (in feet)'}
+              />
+              <span>feet</span>
+            </div>
+            <div>
+              <input
+                type="text"
+                value={this.state.location}
+                onChange={this.handleChangeLocation}
+                name={'location'}
+                placeholder={'Google Maps trailhead link (if you have it!)'}
+              />
+            </div>
+            <div>
+              <input
+                type="text"
+                value={this.state.description}
+                onChange={this.handleChangeDescription}
+                name={'description'}
+                placeholder={'description'}
+              />
+            </div>
+            <button id="form-button" className="submit-btn">
+              submit
+            </button>
+          </form>
+        </div>
       </div>
     )
   }
