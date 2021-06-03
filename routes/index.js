@@ -10,4 +10,5 @@ router.get('/trails/comment/search/', controllers.getAllComments)
 router.post('/trails/comment', controllers.createComment)
 router.get('/trails/name/:name', controllers.findTrailByName)
 router.post('/trails/create', controllers.createTrail)
+router.delete('/trails/delete/:_id', controllers.deleteTrail)
 module.exports = router

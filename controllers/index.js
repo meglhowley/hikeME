@@ -86,6 +86,12 @@ const createTrail = async (req, res) => {
   }
 }
 
+const deleteTrail = async (req, res) => {
+  const { _id } = req.params
+  await Trail.deleteOne({ _id: _id })
+  res.send('deleted!')
+}
+
 module.exports = {
   getTrails,
   findTrails,
@@ -93,5 +99,6 @@ module.exports = {
   getAllComments,
   createComment,
   findTrailByName,
-  createTrail
+  createTrail,
+  deleteTrail
 }

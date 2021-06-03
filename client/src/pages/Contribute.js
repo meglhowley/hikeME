@@ -83,58 +83,61 @@ class Contribute extends Component {
             </p>
           </div>
         </div>
-        <div className="form-trail">
-          <form onSubmit={this.handleSubmit}>
+        <form className="form-trail" onSubmit={this.handleSubmit}>
+          <input
+            type="text"
+            className="form-inputs-trail"
+            value={this.state.name}
+            onChange={this.handleChangeName}
+            name={'trail name'}
+            placeholder={'trail name'}
+          />
+          <div>
             <input
+              className="form-inputs-trail"
               type="text"
-              value={this.state.name}
-              onChange={this.handleChangeName}
-              name={'trail name'}
-              placeholder={'trail name'}
+              value={this.state.length}
+              onChange={this.handleChangeLength}
+              name={'length'}
+              placeholder={'length (in miles)'}
             />
-            <div>
-              <input
-                type="text"
-                value={this.state.length}
-                onChange={this.handleChangeLength}
-                name={'length'}
-                placeholder={'length (in miles)'}
-              />
-              <span>miles</span>
-            </div>
-            <div>
-              <input
-                type="text"
-                value={this.state.elevationGain}
-                onChange={this.handleChangeElevationGain}
-                name={'elevation gain'}
-                placeholder={'elevation gain (in feet)'}
-              />
-              <span>feet</span>
-            </div>
-            <div>
-              <input
-                type="text"
-                value={this.state.location}
-                onChange={this.handleChangeLocation}
-                name={'location'}
-                placeholder={'Google Maps trailhead link (if you have it!)'}
-              />
-            </div>
-            <div>
-              <input
-                type="text"
-                value={this.state.description}
-                onChange={this.handleChangeDescription}
-                name={'description'}
-                placeholder={'description'}
-              />
-            </div>
-            <button id="form-button" className="submit-btn">
-              submit
-            </button>
-          </form>
-        </div>
+            <span>miles</span>
+          </div>
+          <div>
+            <input
+              className="form-inputs-trail"
+              type="text"
+              value={this.state.elevationGain}
+              onChange={this.handleChangeElevationGain}
+              name={'elevation gain'}
+              placeholder={'elevation gain (in feet)'}
+            />
+            <span>feet</span>
+          </div>
+          <div>
+            <input
+              className="form-inputs-trail"
+              type="text"
+              value={this.state.location}
+              onChange={this.handleChangeLocation}
+              name={'location'}
+              placeholder={'Google Maps trailhead link (if you have it!)'}
+            />
+          </div>
+          <div>
+            <input
+              className="form-inputs-trail"
+              type="text"
+              value={this.state.description}
+              onChange={this.handleChangeDescription}
+              name={'description'}
+              placeholder={'description'}
+            />
+          </div>
+          <button id="form-button" className="submit-btn">
+            submit
+          </button>
+        </form>
       </div>
     )
   }

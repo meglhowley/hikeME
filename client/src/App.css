@@ -178,10 +178,17 @@ body {
 }
 
 .form-trail {
+  display: flexbox;
+  justify-content: center;
   border: 1px solid;
   width: 800px;
   height: 300px;
   margin: 0 auto;
   margin-top: 100px;
   background-color: white;
+}
+
+.form-inputs-trail {
+  text-align: center;
+  width: 500px;
 }
