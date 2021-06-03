@@ -1,29 +1,31 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import BASE_URL from '../globals'
+
 
 class Contribute extends Component {
   constructor() {
     super()
     this.state = {
       name: '',
-      category: '',
-      img: 'https://i.imgur.com/OXz83JJ.jpg',
-      menuItem1: { name: '', price: '' },
-      menuItem2: { name: '', price: '' },
-      menuItem3: { name: '', price: '' }
-    }
+      length: '',
+      elevationGain: '',
+      location: '',
+      difficulty: '',
+      routeType: '',
+      description: ''
   }
 
-  postRestaurants = async (res, req) => {
-    res = await axios.post(`http://localhost:3001/api/restaurants`, {
-      name: this.state.name,
-      img: this.state.img,
-      distance: '0.1 miles',
-      category: this.state.category,
-      rating: 'TBD',
-      menuItem1: this.state.menuItem1,
-      menuItem2: this.state.menuItem2,
-      menuItem3: this.state.menuItem3
+  createTrail = async (res, req) => {
+    res = await axios.post(`${BASE_URL}/api/trails/create`, {
+    name: this.state.name,
+    length: this.state.length,
+    elevationGain: this.state.elevationGain,
+    location: this.state.location,
+    difficulty: this.state.difficulty,
+    routeType: this.state.routeType,
+    description: this.state.location,
+    image: 'https://img.freepik.com/free-vector/mountains-landscape-sundown_52683-24164.jpg?size=626&ext=jpg',
     })
     this.props.history.push('/')
   }

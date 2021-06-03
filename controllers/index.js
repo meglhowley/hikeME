@@ -92,5 +92,6 @@ module.exports = {
   addTrail,
   getAllComments,
   createComment,
-  findTrailByName
+  findTrailByName,
+  createTrail
 }
