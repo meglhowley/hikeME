@@ -2,7 +2,7 @@
 ![image](https://i.imgur.com/Reit2UQ.png)
 ***
 ## Created by: Meg Howley
-#### [LinkedIn](https://www.linkedin.com/in/megan-l-howley-4b568199/) | [GitHub](https://github.com/meglhowley) | [Trello Board](hhttps://trello.com/b/pCm4LABs/take-a-hike)
+#### [LinkedIn](https://www.linkedin.com/in/megan-l-howley-4b568199/) | [GitHub](https://github.com/meglhowley) | [Trello Board](https://trello.com/b/pCm4LABs/take-a-hike)
 ***
 #### Date: 6/3/2021
 ***
@@ -27,6 +27,7 @@ From the home page, toggle to the "galaxy mode" page. A list of upcoming celesti
 2. Add the ability to "like" trails.
 3. Report the average reviews based on comment ratings.
 4. Create a username/authentication feature for comments.
+5. More trails will be added to the database.
    
 
 ### *Credits*

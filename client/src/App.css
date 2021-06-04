@@ -73,6 +73,7 @@ body {
   transform: scale(1.04);
   transition: 100ms ease-in;
   cursor: pointer;
+  box-shadow: 10px 5px 5px rgb(202, 199, 199);
 }
 
 .trail-image {
