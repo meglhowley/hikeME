@@ -11,6 +11,7 @@ class Contribute extends Component {
       length: '',
       elevationGain: '',
       location: '',
+      image: '',
       difficulty: 'test',
       routeType: 'test',
       description: ''

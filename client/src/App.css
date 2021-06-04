@@ -431,3 +431,21 @@ body {
 #route {
   margin-left: 5px;
 }
+
+.delete-comment {
+  background-color: black;
+  color: white;
+  border-color: transparent;
+  border-radius: 30px;
+  font-size: 0.9em;
+  height: 1.9em;
+  float: right;
+  margin-top: -25px;
+  margin-right: 2px;
+}
+
+.delete-comment:hover {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
