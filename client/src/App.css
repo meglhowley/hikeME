@@ -178,19 +178,30 @@ body {
 }
 
 .form-trail {
-  display: flexbox;
+  font-family: 'Sen', sans-serif;
+  border-radius: 5px;
+  font-size: 1em;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border: 1px solid;
   width: 800px;
-  height: 300px;
+  height: 400px;
   margin: 0 auto;
   margin-top: 100px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.849);
 }
 
 .form-inputs-trail {
+  font-family: 'Sen', sans-serif;
+  font-size: 1em;
   text-align: center;
-  width: 500px;
+  border-radius: 25px;
+  border-color: black;
+  border-width: 0.2px;
+  width: 400px;
+  margin: 10px;
 }
 
 .exit {
@@ -207,4 +218,13 @@ body {
   color: black;
   border: solid 1px black;
   background-color: white;
+}
+
+#description-input {
+  height: 150px;
+}
+
+#length-input,
+#elevation-input {
+  width: 120px;
 }

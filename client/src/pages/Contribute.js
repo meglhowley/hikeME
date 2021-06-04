@@ -35,6 +35,7 @@ class Contribute extends Component {
   handleSubmit = (e) => {
     e.preventDefault()
     this.createTrail()
+    this.setState({ difficulty: '' })
   }
 
   handleChangeName = async (e) => {
@@ -87,6 +88,7 @@ class Contribute extends Component {
           <input
             type="text"
             className="form-inputs-trail"
+            id="trail-input"
             value={this.state.name}
             onChange={this.handleChangeName}
             name={'trail name'}
@@ -96,10 +98,11 @@ class Contribute extends Component {
             <input
               className="form-inputs-trail"
               type="text"
+              id="length-input"
               value={this.state.length}
               onChange={this.handleChangeLength}
               name={'length'}
-              placeholder={'length (in miles)'}
+              placeholder={'length'}
             />
             <span>miles</span>
           </div>
@@ -107,10 +110,11 @@ class Contribute extends Component {
             <input
               className="form-inputs-trail"
               type="text"
+              id="elevation-input"
               value={this.state.elevationGain}
               onChange={this.handleChangeElevationGain}
               name={'elevation gain'}
-              placeholder={'elevation gain (in feet)'}
+              placeholder={'elevation gain'}
             />
             <span>feet</span>
           </div>
@@ -118,6 +122,7 @@ class Contribute extends Component {
             <input
               className="form-inputs-trail"
               type="text"
+              id="location-input"
               value={this.state.location}
               onChange={this.handleChangeLocation}
               name={'location'}
@@ -126,17 +131,52 @@ class Contribute extends Component {
           </div>
           <div>
             <input
+              onChange={() => {
+                this.setState({ difficulty: 'easy' })
+              }}
+              type="radio"
+              name="difficulty"
+              id="1"
+              className="radio"
+              required
+            />
+            easy
+            <input
+              onChange={async (e) => {
+                await this.setState({ difficulty: 'moderate' })
+              }}
+              type="radio"
+              name="difficulty"
+              id="1"
+              className="radio"
+              required
+            />
+            moderate
+            <input
+              onChange={() => {
+                console.log('hello?')
+                this.setState({ difficulty: 'hard' })
+              }}
+              type="radio"
+              name="difficulty"
+              id="1"
+              className="radio"
+              required
+            />
+            hard
+          </div>
+          <div>
+            <input
               className="form-inputs-trail"
               type="text"
+              id="description-input"
               value={this.state.description}
               onChange={this.handleChangeDescription}
               name={'description'}
               placeholder={'description'}
             />
           </div>
-          <button id="form-button" className="submit-btn">
-            submit
-          </button>
+          <button className="submit-btn">submit</button>
         </form>
       </div>
     )
