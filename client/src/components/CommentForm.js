@@ -42,14 +42,60 @@ export default class CommentForm extends Component {
     return (
       <div className="comment-form">
         <form onSubmit={this.handleSubmit}>
+          stars
           <input
-            type="text"
-            value={this.state.rating}
-            placeholder="rating"
-            onChange={this.handleChangeRating}
-          ></input>
-          <br />
+            onChange={() => {
+              this.setState({ rating: '1' })
+            }}
+            type="radio"
+            name="rating"
+            className="radio"
+            required
+          />
+          1
           <input
+            onChange={() => {
+              this.setState({ rating: '2' })
+            }}
+            type="radio"
+            name="rating"
+            className="radio"
+            required
+          />
+          2
+          <input
+            onChange={() => {
+              this.setState({ rating: '3' })
+            }}
+            type="radio"
+            name="rating"
+            className="radio"
+            required
+          />
+          3
+          <input
+            onChange={() => {
+              this.setState({ rating: '4' })
+            }}
+            type="radio"
+            name="rating"
+            className="radio"
+            required
+          />
+          4
+          <input
+            onChange={() => {
+              this.setState({ rating: '4' })
+            }}
+            type="radio"
+            name="rating"
+            className="radio"
+            required
+          />
+          5
+          <input
+            className="form"
+            id="weather"
             type="text"
             value={this.state.conditions}
             placeholder="weather conditions"
@@ -57,13 +103,17 @@ export default class CommentForm extends Component {
           ></input>
           <br />
           <input
+            id="comment-input"
+            className="form"
             type="text"
             className="comment-box"
             value={this.state.comment}
             placeholder="comment"
             onChange={this.handleChangeComment}
           ></input>
-          <button>Add comment</button>
+          <button id="add-comment" className="form">
+            Add comment
+          </button>
         </form>
       </div>
     )

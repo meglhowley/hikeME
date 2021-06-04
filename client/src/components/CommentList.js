@@ -15,9 +15,13 @@ export default class CommentList extends Component {
     })
     return (
       <div className="comment-list">
-        {targetedComments.map((comment, index) => (
-          <CommentCard key={index} {...comment} />
-        ))}
+        {commentIds ? (
+          targetedComments.map((comment, index) => (
+            <CommentCard key={index} {...comment} />
+          ))
+        ) : (
+          <div>No comments for this trail...yet!</div>
+        )}
       </div>
     )
   }
