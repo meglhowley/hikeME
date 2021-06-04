@@ -12,7 +12,7 @@ const main = async () => {
       length: 10.9,
       elevationGain: 4475,
       location:
-        'https://www.google.com/maps/place/Chimney+Pond+Trail,+Millinocket,+ME+04462/@44.1210673,-72.0626807,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.85739!2d45.91981!3m4!1s0x4cbac339f9023783:0x785cdbabea23bd6f!8m2!3d45.9200781!4d-68.8574555',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932912.4757996458!2d-72.0626807!3d44.1210673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbac339f9023783%3A0x785cdbabea23bd6f!2sChimney%20Pond%20Trail%2C%20Millinocket%2C%20ME%2004462!5e0!3m2!1sen!2sus!4v1622811710967!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
@@ -25,7 +25,7 @@ const main = async () => {
       length: 12.5,
       elevationGain: 3920,
       location:
-        'https://www.google.com/maps/place/Car+Spot/@42.370875,-74.9601129,6.46z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.35696!2d45.10346!3m4!1s0x4cb11e06c88b5f59:0xace5a99c35557d07!8m2!3d45.1034558!4d-70.356735',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6036827.834289941!2d-74.9601129!3d42.370875!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb11e06c88b5f59%3A0xace5a99c35557d07!2sCar%20Spot!5e0!3m2!1sen!2sus!4v1622812144250!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
@@ -38,7 +38,7 @@ const main = async () => {
       length: 4.0,
       elevationGain: 1118,
       location:
-        'https://www.google.com/maps/place/Cadillac+North+Ridge+Trail+Parking/@43.5790015,-71.9166469,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.22954!2d44.37854!3m4!1s0x4caebf9f9200cc7d:0xd4485d305af484d1!8m2!3d44.3785273!4d-68.2292987',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2959690.09181717!2d-71.9166469!3d43.5790015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caebf9f9200cc7d%3A0xd4485d305af484d1!2sCadillac%20North%20Ridge%20Trail%20Parking!5e0!3m2!1sen!2sus!4v1622812242329!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Out & Back',
       description:
@@ -51,7 +51,7 @@ const main = async () => {
       length: 5.3,
       elevationGain: 1952,
       location:
-        'https://www.google.com/maps/place/West+Central+Franklin,+ME/@44.1023024,-72.2990446,7.42z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.55881!2d44.73154!3m4!1s0x4cb16bbafcaddcb1:0xddc421bacf6d99b6!8m2!3d44.8197885!4d-70.5809638',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2933843.84719894!2d-72.2990446!3d44.1023024!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb16bbafcaddcb1%3A0xddc421bacf6d99b6!2sWest%20Central%20Franklin%2C%20ME!5e0!3m2!1sen!2sus!4v1622812304606!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
@@ -64,7 +64,7 @@ const main = async () => {
       length: 2.1,
       elevationGain: 1053,
       location:
-        'https://www.google.com/maps/place/Precipice+trailhead/@43.5790015,-71.8958423,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.18776!2d44.34948!3m4!1s0x4caeb9323d121d83:0xec550f0ca71569db!8m2!3d44.3495642!4d-68.1879799',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2959690.09181717!2d-71.8958423!3d43.5790015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caeb9323d121d83%3A0xec550f0ca71569db!2sPrecipice%20trailhead!5e0!3m2!1sen!2sus!4v1622812478682!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
@@ -77,7 +77,7 @@ const main = async () => {
       length: 3.5,
       elevationGain: 1597,
       location:
-        'https://www.google.com/maps/place/Chimney+Pond+Trail/@44.1209512,-72.0626807,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.85739!2d45.9197!3m4!1s0x4cbac339fa1466c7:0xad5f4eb68a7d6f14!8m2!3d45.9198459!4d-68.8573822',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932918.2392393877!2d-72.0626807!3d44.1209512!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbac339fa1466c7%3A0xad5f4eb68a7d6f14!2sChimney%20Pond%20Trail!5e0!3m2!1sen!2sus!4v1622812531600!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Out & Back',
       description:
@@ -90,7 +90,7 @@ const main = async () => {
       length: 1.1,
       elevationGain: 590,
       location:
-        'https://www.google.com/maps/place/Mt.+Battie+Trailhead/@43.3170972,-71.2124895,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-69.07001!2d44.21655!3m4!1s0x4cadd79e3b5b6721:0xde77ed62a0aa89de!8m2!3d44.2164412!4d-69.0698409',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1486266.5914885558!2d-71.2124895!3d43.3170972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cadd79e3b5b6721%3A0xde77ed62a0aa89de!2sMt.%20Battie%20Trailhead!5e0!3m2!1sen!2sus!4v1622812588220!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Out & Back',
       description:
@@ -103,7 +103,7 @@ const main = async () => {
       length: 1.5,
       elevationGain: 508,
       location:
-        'https://www.google.com/maps/place/Parking+lot,+Bar+Harbor,+ME+04609/@43.5803195,-71.8713387,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.18449!2d44.33039!3m4!1s0x4caeb94083479e97:0xf08169e77dd0b145!8m2!3d44.3298413!4d-68.1836552',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2959625.303982877!2d-71.8713387!3d43.5803195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caeb94083479e97%3A0xf08169e77dd0b145!2sParking%20lot%2C%20Bar%20Harbor%2C%20ME%2004609!5e0!3m2!1sen!2sus!4v1622812632517!5m2!1sen!2sus"',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
@@ -116,7 +116,7 @@ const main = async () => {
       length: 6.1,
       elevationGain: 2299,
       location:
-        'https://www.google.com/maps/place/Carrabassett+Valley,+ME+04947/@43.2262112,-73.3492101,6.49z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.34616!2d45.0459!3m4!1s0x4cb102e765f4b65d:0x53dec0d2f2928d12!8m2!3d45.0736009!4d-70.2616873',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5953950.976047791!2d-73.3492101!3d43.2262112!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb102e765f4b65d%3A0x53dec0d2f2928d12!2sCarrabassett%20Valley%2C%20ME%2004947!5e0!3m2!1sen!2sus!4v1622812671761!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Out & back',
       description:
@@ -129,7 +129,7 @@ const main = async () => {
       length: 3.3,
       elevationGain: 1512,
       location:
-        'https://www.google.com/maps/place/Ledges+Trail+-+Pleasant+Mountain/@43.1910328,-71.9023947,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.79742!2d44.02443!3m4!1s0x4cb3ab0781c5d1e9:0x7d356151e7b1c26b!8m2!3d44.0242218!4d-70.7976047',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1489346.459799472!2d-71.9023947!3d43.1910328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb3ab0781c5d1e9%3A0x7d356151e7b1c26b!2sLedges%20Trail%20-%20Pleasant%20Mountain!5e0!3m2!1sen!2sus!4v1622812811913!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Out & back',
       description:
@@ -142,7 +142,7 @@ const main = async () => {
       length: 1.7,
       elevationGain: 226,
       location:
-        'https://www.google.com/maps/dir/Current+Location/45.354,-69.94032?ref=trail-action-menu-directions',
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946861.276885188!2d-72.6019648034016!3d43.839364643107075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb08b57755126cf%3A0xe7ddf72b7908153a!2sParking%20lot%2C%20Northeast%20Somerset%2C%20ME%2004985!5e0!3m2!1sen!2sus!4v1622812915340!5m2!1sen!2sus',
       difficulty: 'easy',
       routeType: 'Out & back',
       description:
@@ -155,7 +155,7 @@ const main = async () => {
       length: 3.4,
       elevationGain: 905,
       location:
-        'https://www.google.com/maps/place/Greenville,+ME+04441/@44.0301297,-72.4251488,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-69.73483!2d45.69092!3m4!1s0x4cba797fe73d459f:0xc63bc27106fb5c0!8m2!3d45.6978488!4d-69.7492878',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2937423.111616358!2d-72.4251488!3d44.0301297!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cba797fe73d459f%3A0xc63bc27106fb5c0!2sGreenville%2C%20ME%2004441!5e0!3m2!1sen!2sus!4v1622812950702!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Loop',
       description:
@@ -168,7 +168,7 @@ const main = async () => {
       length: 5.9,
       elevationGain: 1742,
       location:
-        'https://www.google.com/maps/place/Rangeley,+ME+04970/@44.1099847,-71.6610077,7.84z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.52725!2d44.94585!3m4!1s0x4cb117acaf2ac87b:0x4d51f409c1537b08!8m2!3d44.9458697!4d-70.5272215',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2933462.5842718016!2d-71.6610077!3d44.1099847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb117acaf2ac87b%3A0x4d51f409c1537b08!2sRangeley%2C%20ME%2004970!5e0!3m2!1sen!2sus!4v1622812982943!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Out & Back',
       description:
@@ -181,7 +181,7 @@ const main = async () => {
       length: 5.2,
       elevationGain: 1453,
       location:
-        'https://www.google.com/maps/place/Newry,+ME+04261/@43.8846271,-71.2759193,7.89z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.90022!2d44.4753!3m4!1s0x4cb3de91038896f5:0x378c902b5876fa91!8m2!3d44.4884245!4d-70.7885765',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2944624.853649545!2d-71.2759193!3d43.8846271!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb3de91038896f5%3A0x378c902b5876fa91!2sNewry%2C%20ME%2004261!5e0!3m2!1sen!2sus!4v1622813016789!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Loop',
       description:
@@ -194,7 +194,7 @@ const main = async () => {
       length: 7.4,
       elevationGain: 2870,
       location:
-        'https://www.google.com/maps/place/North+Oxford,+ME+04261/@44.5652686,-70.9692633,12.85z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.94786!2d44.58975!3m4!1s0x4cb15f5653fd1255:0xbbec4a9cabe9290f!8m2!3d44.5871463!4d-70.940298',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d90961.67117173152!2d-70.9692633!3d44.5652686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb15f5653fd1255%3A0xbbec4a9cabe9290f!2sNorth%20Oxford%2C%20ME%2004261!5e0!3m2!1sen!2sus!4v1622813052933!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Out & Back',
       description:
@@ -207,7 +207,7 @@ const main = async () => {
       length: 1.4,
       elevationGain: 209,
       location:
-        'https://www.google.com/maps/place/Parking+Lot,+Hallowell+Rd,+Pownal,+ME+04069/@43.1276175,-71.7332686,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.17942!2d43.90024!3m4!1s0x4cb27cef13c5e6e5:0xb9edc100d1a93a55!8m2!3d43.900194!4d-70.179271',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1490893.028676168!2d-71.7332686!3d43.1276175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb27cef13c5e6e5%3A0xb9edc100d1a93a55!2sParking%20Lot%2C%20Hallowell%20Rd%2C%20Pownal%2C%20ME%2004069!5e0!3m2!1sen!2sus!4v1622813090237!5m2!1sen!2sus',
       difficulty: 'easy',
       routeType: 'Loop',
       description:
@@ -220,7 +220,7 @@ const main = async () => {
       length: 5.6,
       elevationGain: 1961,
       location:
-        'https://www.google.com/maps/place/South+Oxford,+ME+04217/@43.3874101,-71.8309739,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.91455!2d44.3717!3m4!1s0x4cb3c7ab20da097b:0xdb68bf33f526cb1a!8m2!3d44.3332534!4d-70.866177',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1484545.6565310278!2d-71.8309739!3d43.3874101!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb3c7ab20da097b%3A0xdb68bf33f526cb1a!2sSouth%20Oxford%2C%20ME%2004217!5e0!3m2!1sen!2sus!4v1622813171933!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Out & Back',
       description:
@@ -233,7 +233,7 @@ const main = async () => {
       length: 3.4,
       elevationGain: 95,
       location:
-        'https://www.google.com/maps/place/Seal+Harbor,+ME+04675/@43.5790015,-71.9169524,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.25437!2d44.322!3m4!1s0x4caebc26564b3787:0xd387a9786765d740!8m2!3d44.3222631!4d-68.2541917',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2959690.09181717!2d-71.9169524!3d43.5790015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caebc26564b3787%3A0xd387a9786765d740!2sSeal%20Harbor%2C%20ME%2004675!5e0!3m2!1sen!2sus!4v1622813211561!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Loop',
       description:
@@ -246,7 +246,7 @@ const main = async () => {
       length: 0.8,
       elevationGain: 183,
       location:
-        'https://www.google.com/maps/place/French+Mountain/@44.214404,-71.0924362,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-69.92008!2d44.57458!3m4!1s0x4cb1ed5d63eac2af:0x3281ab3378cec812!8m2!3d44.5745452!4d-69.9203536',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1464137.5790477607!2d-71.0924362!3d44.214404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb1ed5d63eac2af%3A0x3281ab3378cec812!2sFrench%20Mountain!5e0!3m2!1sen!2sus!4v1622813248819!5m2!1sen!2sus',
       difficulty: 'easy',
       routeType: 'Loop',
       description:
@@ -259,7 +259,7 @@ const main = async () => {
       length: 2.1,
       elevationGain: 262,
       location:
-        'https://www.google.com/maps/place/263+Mountain+Rd,+Harpswell,+ME+04079/@43.1360268,-71.6513425,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-69.94294!2d43.81427!3m4!1s0x4cad833e58847955:0xe67831e882e02015!8m2!3d43.8139987!4d-69.9429814',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1490688.04812214!2d-71.6513425!3d43.1360268!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cad833e58847955%3A0xe67831e882e02015!2s263%20Mountain%20Rd%2C%20Harpswell%2C%20ME%2004079!5e0!3m2!1sen!2sus!4v1622813284485!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Loop',
       description:
@@ -272,7 +272,7 @@ const main = async () => {
       length: 1.4,
       elevationGain: 45,
       location:
-        'https://www.google.com/maps/place/Mackworth+Island+Trail,+Falmouth,+ME+04105/@43.2620026,-70.8000454,9z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-70.23543!2d43.68925!3m4!1s0x4cb29c9453a62541:0x9bebae52a8eeb489!8m2!3d43.6894725!4d-70.235027',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d743806.7444184149!2d-70.8000454!3d43.2620026!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb29c9453a62541%3A0x9bebae52a8eeb489!2sMackworth%20Island%20Trail%2C%20Falmouth%2C%20ME%2004105!5e0!3m2!1sen!2sus!4v1622813319872!5m2!1sen!2sus',
       difficulty: 'easy',
       routeType: 'Loop',
       description:
@@ -285,7 +285,7 @@ const main = async () => {
       length: 3.1,
       elevationGain: 580,
       location:
-        'https://www.google.com/maps/place/Parking+lot,+Bar+Harbor,+ME+04609/@43.5803195,-71.8713387,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.18417!2d44.33003!3m4!1s0x4caeb94083479e97:0xf08169e77dd0b145!8m2!3d44.3298413!4d-68.1836552',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2959625.303982877!2d-71.8713387!3d43.5803195!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caeb94083479e97%3A0xf08169e77dd0b145!2sParking%20lot%2C%20Bar%20Harbor%2C%20ME%2004609!5e0!3m2!1sen!2sus!4v1622813358283!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Loop',
       description:
@@ -298,7 +298,7 @@ const main = async () => {
       length: 2.0,
       elevationGain: 600,
       location:
-        'https://www.google.com/maps/place/Blue+Hill,+ME/@43.4659021,-70.9716648,8z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.58313!2d44.42898!3m4!1s0x4cae8b80f2bc11f3:0xe9ada3752569070a!8m2!3d44.4177344!4d-68.6256494',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1482621.894156266!2d-70.9716648!3d43.4659021!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cae8b80f2bc11f3%3A0xe9ada3752569070a!2sBlue%20Hill%2C%20ME!5e0!3m2!1sen!2sus!4v1622813393279!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Out & Back',
       description:
@@ -311,7 +311,7 @@ const main = async () => {
       length: 6.6,
       elevationGain: 557,
       location:
-        'https://www.google.com/maps/place/Trailhead:+Cutler+Bold+Coast+Trail/@43.6367871,-71.3810195,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-67.15778!2d44.69868!3m4!1s0x4ca8c3b65f24e22f:0x3774b06d515f4284!8m2!3d44.6986539!4d-67.1580515',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2956848.102500578!2d-71.3810195!3d43.6367871!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca8c3b65f24e22f%3A0x3774b06d515f4284!2sTrailhead%3A%20Cutler%20Bold%20Coast%20Trail!5e0!3m2!1sen!2sus!4v1622813426276!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
@@ -324,7 +324,7 @@ const main = async () => {
       length: 2.2,
       elevationGain: 308,
       location:
-        'https://www.google.com/maps/place/Grand+Manan+Island/@43.7833873,-71.1458401,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-66.78509!2d44.79921!3m4!1s0x4ca8f3325b060c19:0xde246ab8d98d251!8m2!3d44.7063915!4d-66.8157713',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2949624.580142001!2d-71.1458401!3d43.7833873!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca8f3325b060c19%3A0xde246ab8d98d251!2sGrand%20Manan%20Island!5e0!3m2!1sen!2sus!4v1622813467559!5m2!1sen!2sus',
       difficulty: 'moderate',
       routeType: 'Loop',
       description:
@@ -333,16 +333,107 @@ const main = async () => {
         'https://cdn-assets.alltrails.com/uploads/photo/image/19903419/extra_large_87acf2a644c015b4fd5d0e89541cdd85.jpg'
     },
     {
-      name: 'Helon Taylor, Knife Edge, Cathedral, and Chimney Pond Loop',
+      name: 'Mount Katahdin via Helon Taylor, Knife Edge, Cathedral Loop',
       length: 8.1,
       elevationGain: 3897,
       location:
-        'https://www.google.com/maps/place/S+Turner+Mountain+Trail,+Millinocket,+ME+04462/@44.1226245,-72.0423934,7z/data=!4m18!1m12!4m11!1m6!1m2!1s0x89e370bbdff94f5f:0x1a3a38263265fa43!2sEast+Cambridge,+Cambridge,+MA!2m2!1d-71.0773939!2d42.3686043!1m3!2m2!1d-68.858!2d45.92058!3m4!1s0x4cbac337545a7bc7:0x9b94844adab911a9!8m2!3d45.9205562!4d-68.8579888',
+        'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932835.1720657786!2d-72.0423934!3d44.1226245!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbac337545a7bc7%3A0x9b94844adab911a9!2sS%20Turner%20Mountain%20Trail%2C%20Millinocket%2C%20ME%2004462!5e0!3m2!1sen!2sus!4v1622813504672!5m2!1sen!2sus',
       difficulty: 'hard',
       routeType: 'Loop',
       description:
         'Extremely challenging trail with fantastic views along steep, loose rock piles. The Knife Edge Trail is very rugged in places - the Chimney is almost a technical climb. Users say that the Baxter Peak side of the Knife Edge is a boulder scramble.  The gap between Pamola and Chimney peaks can be very challenging because it is steep and many of the rocks you have to climb up lean in towards the gap.  These can be very dangerous in wet weather.  Proper equipment and experience are a requirement.',
       image: 'https://i.redd.it/mbs9midojag01.jpg'
+    },
+    {
+      name: 'Katahdin Dudley, Knife Edge, Saddle Trail Loop',
+      length: 4.0,
+      elevationGain: 2624,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2932863.12248333!2d-72.0423934221124!3d44.12206147414507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbac2eb565b7cd9%3A0x13cf599e9729df23!2sChimney%20Pond%20Trail%2C%20Millinocket%2C%20ME%2004462!5e0!3m2!1sen!2sus!4v1622813767461!5m2!1sen!2sus',
+      difficulty: 'hard',
+      routeType: 'Loop',
+      description:
+        'INDEFINITE CLOSURE: As of March 2021 the Dudley trail is closed indefinitely. For more information, please visit https://baxterstatepark.org/general-info/#plan. You should plan on at least 2 hours to climb this 1.2 stretch of the Dudley trail.  It is pretty steep and very rough, as is all of Katahdin. There are only 3 ways off of Pamola - the knife edge, Heelon Taylor to roaring brook or back down the Dudley trail.',
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/29786191/extra_large_e228df6ef43946e7d74e55b849120865.jpg'
+    },
+    {
+      name: 'Mount Abraham, Spaulding and Sugarloaf Traverse via Mt. Abraham and Appalachian Trail',
+      length: 13.0,
+      elevationGain: 4839,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1477961.5469815785!2d-71.8381806628885!3d43.65558193086748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb1055f240f05f9%3A0x2c2355030b71fbb8!2sEast%20Central%20Franklin%2C%20ME!5e0!3m2!1sen!2sus!4v1622814006015!5m2!1sen!2sus',
+      difficulty: 'hard',
+      routeType: 'Point to Point',
+      description:
+        'From Maine RT 27 in Kingfield take West Kingfield Road to Rapid Stream Road. It will turn into a dirt road and you will cross a couple of bridges. Take the right after the bridges and you should come to a t-intersection. The start of the Mt. Abraham trail is right there be careful and look for the sign. Traverse of Mt. Abraham, Spaulding and Sugarloaf. Take Mt. Abraham Trail to the AT to Spaulding and Sugarloaf. Descend via ski slopes at Sugarloaf. This is a one-way hiking, so you will need to have your car shuttle logistics dialed. Contact All points transportation in Maine if you need a car spot.',
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/29977741/extra_large_c9f829cf5172953780b820a890e74af7.jpg'
+    },
+    {
+      name: 'Bradbury Mountain from The Corridor',
+      length: 4.3,
+      elevationGain: 600,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1490730.4295802705!2d-71.88214267617997!3d43.13428821434171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb27cb867ddb7cb%3A0x980db2646eaa34ec!2sPinelands-Bradbury%20Corridor%2C%20Pownal%2C%20ME%2004069!5e0!3m2!1sen!2sus!4v1622815716451!5m2!1sen!2sus',
+      difficulty: 'easy',
+      routeType: 'Loop',
+      description:
+        'Bradbury Mountain from The Corridor is a 4.3 mile lightly trafficked loop trail located near Pownal, Maine that features a great forest setting and is good for all skill levels. The trail is primarily used for hiking, running, and nature trips. Dogs are also able to use this trail.',
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/13736149/extra_large_7ac9ba0eb1da3ab81f7794dbad70f7f4.jpg'
+    },
+    {
+      name: 'Acadia Park Loop Road',
+      length: 24.5,
+      elevationGain: 2047,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1479408.1861494784!2d-70.78276433033088!3d43.596773179277704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caec0053f5971d5%3A0x9206b55bca1d99c2!2sParadise%20Hill%20Rd%2C%20Bar%20Harbor%2C%20ME%2004609!5e0!3m2!1sen!2sus!4v1622816000497!5m2!1sen!2sus',
+      difficulty: 'easy',
+      routeType: 'Loop',
+      description:
+        "Acadia National Park charges a fee to enter. Fees are per vehicle or per motorcycle. If you are entering on foot, horse, or bike the fee is per person. You can also purchase a park-specific annual pass. Please check with the park's website for current rate information. Follow the official Park Loop Road in this extensive tour of all the interesting spots to stop at and explore in Acadia. This 27 mile Park Loop Road will take you to some of the best highlights of the Acadia National Park.  You will have multiple opportunities to stop and go on hikes up into the hills or along the rocky Atlantic shoreline.  There are several beaches on this loop for you to relax at and other exciting attractions for the kids on the old roads of the park.  Make sure you bring a camera and have a full day to experience this drive.",
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/36778518/extra_large_4e49d7efbce04d79a62c1bfddd3abaf1.jpg'
+    },
+    {
+      name: 'Bar Island Trail',
+      length: 2.4,
+      elevationGain: 236,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959625.3024612963!2d-71.88656351761635!3d43.58031953095364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caebf7c292df653%3A0x8a95e204b5f8561b!2s17A%20Bridge%20St%2C%20Bar%20Harbor%2C%20ME%2004609!5e0!3m2!1sen!2sus!4v1622816213017!5m2!1sen!2sus',
+      difficulty: 'easy',
+      routeType: 'Out & Back',
+      description:
+        'Bar Island Trail is a 2.4 mile heavily trafficked out and back trail located near Bar Harbor, Maine that features beautiful wild flowers and is good for all skill levels. The trail is primarily used for hiking, walking, and nature trips and is accessible year-round. Dogs are also able to use this trail but must be kept on leash.',
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/36781444/extra_large_862178b9e8c275b0dde9b3d07318aed2.jpg'
+    },
+    {
+      name: 'Dorr Mountain via Wild Gardens to Schiff to Emery Path',
+      length: 3.4,
+      elevationGain: 1151,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959625.302461297!2d-71.88327746761635!3d43.58031953095363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caebf23220b6075%3A0x18f28384d062d7f1!2sSuier%20de%20Monts%20Rd%2C%20Bar%20Harbor%2C%20ME%2004609!5e0!3m2!1sen!2sus!4v1622816375050!5m2!1sen!2sus',
+      difficulty: 'moderate',
+      routeType: 'Out & Back',
+      description:
+        'Dorr Mountain via Wild Gardens to Schiff to Emery Path is a 3.4 mile heavily trafficked out and back trail located near Bar Harbor, Maine that features beautiful wild flowers and is rated as moderate. The trail is primarily used for hiking and is best used from May until October. Dogs are also able to use this trail but must be kept on leash.',
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/16333153/extra_large_c9556e8024fdbc894e04409eb3286bd7.jpg'
+    },
+    {
+      name: 'Cadillac Mountain South Ridge Trail Loop',
+      length: 8.0,
+      elevationGain: 2286,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2959625.3024612963!2d-71.88910671761636!3d43.58031953095364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4caebbfc020d1d9b%3A0xf6b8b80c478ac179!2sCadillac%20South%20Ridge%20Trailhead!5e0!3m2!1sen!2sus!4v1622816503383!5m2!1sen!2sus',
+      difficulty: 'moderate',
+      routeType: 'Loop',
+      description:
+        'Cadillac Mountain is the tallest mountain on the eastern seaboard of the United States and is known for its spectacular views, especially at sunrise. This route begins in a parking lot near the Blackwoods Campground and is one of the longest stretches of trail on Mount Desert Island. There is also an access trail from the campground itself. The true summit is to the left where the South Ridge Trail opens onto the gravel access road. Look for two survey benchmarks established by the US Coast and Geodetic Survey in 1856 and 1954.',
+      image:
+        'https://cdn-assets.alltrails.com/uploads/photo/image/37090897/extra_large_5c9d99d488b20593a80e32382503a65e.jpg'
     }
   ]
   const comments = [

@@ -9,7 +9,7 @@ export default class CommentList extends Component {
     commentIds.forEach((id) => {
       for (let i = 0; i < comments.length; i++) {
         if (id === comments[i]._id) {
-          targetedComments.push(comments[i])
+          targetedComments.unshift(comments[i])
         }
       }
     })

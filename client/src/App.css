@@ -63,7 +63,7 @@ body {
   justify-content: center;
   border-radius: 10px;
   width: 520px;
-  height: 300px;
+  height: 325px;
   justify-content: space-between;
   background-color: white;
   margin: 22px;
@@ -131,12 +131,13 @@ body {
 }
 
 .difficulty {
-  width: 75px;
+  margin-left: 5px;
+  width: 69px;
   color: white;
-  height: 25px;
+  height: 20px;
   font-size: 1.15em;
   text-align: center;
-  padding-bottom: 1px;
+  padding-bottom: -10px;
   border-radius: 20px;
 }
 
@@ -275,8 +276,6 @@ body {
 }
 
 .comment-list {
-  display: flex;
-  flex-direction: column-reverse;
   font-family: 'Sen', sans-serif;
   background-color: rgba(255, 255, 255, 0.61);
   height: 300px;
@@ -421,4 +420,14 @@ body {
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
+}
+
+.length-route {
+  font-size: 1.45em;
+  margin-left: 0px;
+  margin-top: -5px;
+}
+
+#route {
+  margin-left: 5px;
 }

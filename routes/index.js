@@ -11,4 +11,6 @@ router.post('/trails/comment', controllers.createComment)
 router.get('/trails/name/:name', controllers.findTrailByName)
 router.post('/trails/create', controllers.createTrail)
 router.delete('/trails/delete/:_id', controllers.deleteTrail)
+router.delete('/trails/:trail_id/comments/:_id', controllers.deleteComment)
+
 module.exports = router

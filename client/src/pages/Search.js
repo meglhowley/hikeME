@@ -89,6 +89,10 @@ export default class Search extends Component {
                     <img className="trail-image" src={trail.image}></img>
                     <br />
                     <h1>{trail.name}</h1>
+                    <div className="length-route">
+                      <span>Length: {trail.length} miles</span>
+                      <span id="route">|| Route Type: {trail.routeType}</span>
+                    </div>
                     <div
                       className="difficulty"
                       style={{
@@ -100,6 +104,7 @@ export default class Search extends Component {
                             : 'rgb(113, 173, 114)'
                       }}
                     >
+                      {' '}
                       <h2 className="difficulty-text">{trail.difficulty}</h2>
                     </div>
                   </div>

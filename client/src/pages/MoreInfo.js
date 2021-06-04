@@ -78,7 +78,7 @@ export default class Home extends Component {
           </button> */}
           <div className="google-maps">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2932912.4757996458!2d-72.0626807!3d44.1210673!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cbac339f9023783%3A0x785cdbabea23bd6f!2sChimney%20Pond%20Trail%2C%20Millinocket%2C%20ME%2004462!5e0!3m2!1sen!2sus!4v1622777398858!5m2!1sen!2sus"
+              src={`${this.state.trail.location}`}
               width="600"
               height="200"
             ></iframe>
