@@ -29,6 +29,14 @@ export default class Home extends Component {
               explore now
             </button>
           </div>
+          <button
+            onClick={() => {
+              this.props.history.push('/lunar_calendar')
+            }}
+            className="galaxy-mode"
+          >
+            galaxymode
+          </button>
         </div>
       </body>
     )
