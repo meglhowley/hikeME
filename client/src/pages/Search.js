@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 import Nav from '../components/Nav'
-import BASE_URL from '../globals'
-import e from 'cors'
+import { BASE_URL } from '../globals'
 
 export default class Search extends Component {
   constructor() {
