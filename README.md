@@ -2,7 +2,7 @@
 ![image](https://i.imgur.com/Reit2UQ.png)
 ***
 ## Created by: Meg Howley
-#### [LinkedIn](https://www.linkedin.com/in/megan-l-howley-4b568199/) | [GitHub](https://github.com/meglhowley) | [Trello Board](https://trello.com/b/1BXSBv5d/bop-it-virtual)
+#### [LinkedIn](https://www.linkedin.com/in/megan-l-howley-4b568199/) | [GitHub](https://github.com/meglhowley) | [Trello Board](hhttps://trello.com/b/pCm4LABs/take-a-hike)
 ***
 #### Date: 6/3/2021
 ***
@@ -36,4 +36,5 @@ From the home page, toggle to the "galaxy mode" page. A list of upcoming celesti
 3. CSS Transitions [ThoughtBot](https://thoughtbot.com/blog/transitions-and-transforms)
 4. Embedding GoogleMaps [UC Santa Cruz](https://wcmshelp.ucsc.edu/advanced/embedding-google/google-maps.html)
 5. [MDN WebDocs](https://developer.mozilla.org/en-US/)
+6. GA Instructors Michael Lackey, Andre Pato, and Hunter Long.
 ####
