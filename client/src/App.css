@@ -259,7 +259,6 @@ body {
   grid-template-columns: 1fr;
   justify-items: right;
   font-family: 'Sen', sans-serif;
-  background-color: rgba(255, 255, 255, 0.61);
   height: 180px;
   width: 600px;
   grid-column-start: 2;
@@ -276,13 +275,15 @@ body {
 }
 
 .comment-list {
+  display: flex;
+  flex-direction: column-reverse;
   font-family: 'Sen', sans-serif;
   background-color: rgba(255, 255, 255, 0.61);
   height: 300px;
   width: 610px;
   grid-column-start: 2;
   grid-column-end: span 1;
-  margin-top: -310px;
+  margin-top: -330px;
   overflow-y: scroll;
   margin-left: auto;
   margin-right: auto;
@@ -350,7 +351,7 @@ body {
 .google-maps {
   grid-column-start: 2;
   grid-column-end: span 1;
-  margin-top: -400px;
+  margin-top: -420px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -376,10 +377,48 @@ body {
 
 #weather {
   text-align: center;
-  margin-left: 230px;
-  margin-top: 10px;
+  margin-left: 245px;
+  margin-top: 5px;
+  font-size: 0.85em;
 }
 
 #comment-input {
   margin-top: 10px;
+  width: 566px;
+  border-color: transparent;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#add-comment {
+  width: 572px;
+  text-align: center;
+  background-color: rgb(97, 112, 83);
+  color: white;
+  border-color: transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#add-comment:hover {
+  background-color: white;
+  color: rgb(71, 80, 128);
+  border-top: 1px solid black;
+}
+
+.rating-weather-header {
+  background-color: rgb(97, 112, 83);
+  height: 30px;
+  color: white;
+  width: 570px;
+  font-size: 0.85em;
+  margin-bottom: -10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }

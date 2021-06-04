@@ -42,66 +42,66 @@ export default class CommentForm extends Component {
     return (
       <div className="comment-form">
         <form onSubmit={this.handleSubmit}>
-          stars
-          <input
-            onChange={() => {
-              this.setState({ rating: '1' })
-            }}
-            type="radio"
-            name="rating"
-            className="radio"
-            required
-          />
-          1
-          <input
-            onChange={() => {
-              this.setState({ rating: '2' })
-            }}
-            type="radio"
-            name="rating"
-            className="radio"
-            required
-          />
-          2
-          <input
-            onChange={() => {
-              this.setState({ rating: '3' })
-            }}
-            type="radio"
-            name="rating"
-            className="radio"
-            required
-          />
-          3
-          <input
-            onChange={() => {
-              this.setState({ rating: '4' })
-            }}
-            type="radio"
-            name="rating"
-            className="radio"
-            required
-          />
-          4
-          <input
-            onChange={() => {
-              this.setState({ rating: '4' })
-            }}
-            type="radio"
-            name="rating"
-            className="radio"
-            required
-          />
-          5
-          <input
-            className="form"
-            id="weather"
-            type="text"
-            value={this.state.conditions}
-            placeholder="weather conditions"
-            onChange={this.handleChangeConditions}
-          ></input>
-          <br />
+          <div className="rating-weather-header">
+            <input
+              onChange={() => {
+                this.setState({ rating: '1' })
+              }}
+              type="radio"
+              name="rating"
+              className="radio"
+              required
+            />
+            1
+            <input
+              onChange={() => {
+                this.setState({ rating: '2' })
+              }}
+              type="radio"
+              name="rating"
+              className="radio"
+              required
+            />
+            2
+            <input
+              onChange={() => {
+                this.setState({ rating: '3' })
+              }}
+              type="radio"
+              name="rating"
+              className="radio"
+              required
+            />
+            3
+            <input
+              onChange={() => {
+                this.setState({ rating: '4' })
+              }}
+              type="radio"
+              name="rating"
+              className="radio"
+              required
+            />
+            4
+            <input
+              onChange={() => {
+                this.setState({ rating: '5' })
+              }}
+              type="radio"
+              name="rating"
+              className="radio"
+              required
+            />
+            5 ★ s
+            <input
+              className="form"
+              id="weather"
+              type="text"
+              value={this.state.conditions}
+              placeholder="weather conditions"
+              onChange={this.handleChangeConditions}
+            ></input>
+          </div>
           <input
             id="comment-input"
             className="form"
