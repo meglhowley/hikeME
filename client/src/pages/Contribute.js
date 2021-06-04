@@ -23,12 +23,14 @@ class Contribute extends Component {
       name: this.state.name,
       length: this.state.length,
       elevationGain: this.state.elevationGain,
-      location: this.state.location,
+      location:
+        'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880528.4828970535!2d-71.22781786235342!3d45.16652391574985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb01dde1d538ad5%3A0xd679cc6f6720a8d0!2sMaine!5e0!3m2!1sen!2sus!4v1622825441820!5m2!1sen!2sus',
       difficulty: this.state.difficulty,
       routeType: this.state.routeType,
-      description: this.state.location,
-      image:
-        'https://img.freepik.com/free-vector/mountains-landscape-sundown_52683-24164.jpg?size=626&ext=jpg'
+      description: this.state.description,
+      image: this.state.image
+        ? this.state.image
+        : 'https://media.istockphoto.com/vectors/realistic-mountains-landscape-morning-wood-panorama-pine-trees-and-vector-id1150481340?k=6&m=1150481340&s=612x612&w=0&h=cvEgkS1M_V3a6gnzAK8h9z7UwouqQI6kXCmJRxWqvu4='
     })
     this.props.history.push('/search')
   }
@@ -54,8 +56,8 @@ class Contribute extends Component {
     console.log(e.target.value)
   }
 
-  handleChangeLocation = async (e) => {
-    await this.setState({ location: e.target.value })
+  handleChangeImage = async (e) => {
+    await this.setState({ image: e.target.value })
     console.log(e.target.value)
   }
 
@@ -124,10 +126,10 @@ class Contribute extends Component {
               className="form-inputs-trail"
               type="text"
               id="location-input"
-              value={this.state.location}
-              onChange={this.handleChangeLocation}
+              value={this.state.image}
+              onChange={this.handleChangeImage}
               name={'location'}
-              placeholder={'Google Maps Trail-Head Link'}
+              placeholder={'image url (optional)'}
             />
           </div>
           <div>

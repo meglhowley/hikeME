@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Search from './pages/Search'
 import MoreInfo from './pages/MoreInfo'
 import Contribute from './pages/Contribute'
+import LunarCalendar from './pages/LunarCalendar'
 import { withRouter } from 'react-router-dom'
 
 class App extends Component {
@@ -34,6 +35,13 @@ class App extends Component {
             path="/contribute"
             component={(reactRouterProps) => (
               <Contribute {...reactRouterProps} />
+            )}
+          />
+          <Route
+            exact
+            path="/lunar_calendar"
+            component={(reactRouterProps) => (
+              <LunarCalendar {...reactRouterProps} />
             )}
           />
         </Switch>

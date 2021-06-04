@@ -449,3 +449,52 @@ body {
   color: black;
   border-color: black;
 }
+
+.galaxy-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.celestial-calendar {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  color: white;
+  font-family: 'Economica', sans-serif;
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+.galaxy-btn {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  text-align: center;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  font-family: 'Economica', sans-serif;
+  font-size: 30px;
+  margin-top: 48%;
+  margin-left: 10px;
+  background-color: rgb(84, 133, 207);
+  color: white;
+  border-color: transparent;
+}
+
+.calendar-events {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  margin-top: -280px;
+  margin-left: 60px;
+  color: white;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.418);
+  width: 700px;
+  height: 600px;
+}
+
+#twenty {
+  font-size: 0.7em;
+}
