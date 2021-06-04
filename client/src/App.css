@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@300&family=Sen&family=Work+Sans:wght@300&display=swap');
 
-.more-info-img {
-  width: 500px;
-}
-
-.comment-container {
-  border: 1px solid black;
-  width: 300px;
-  margin: 10px;
-}
-
 body {
   background-size: cover;
 }
@@ -190,7 +180,7 @@ body {
   height: 400px;
   margin: 0 auto;
   margin-top: 100px;
-  background-color: rgba(255, 255, 255, 0.849);
+  background-color: rgba(255, 255, 255, 0.753);
 }
 
 .form-inputs-trail {
@@ -221,10 +211,122 @@ body {
 }
 
 #description-input {
-  height: 150px;
+  height: 100px;
 }
 
 #length-input,
 #elevation-input {
   width: 120px;
+}
+
+.more-info-container {
+  font-family: 'Sen', sans-serif;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(255, 255, 255, 0.589);
+  width: 70%;
+  height: 90vh;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.more-info-name {
+  margin-left: 25px;
+}
+
+.more-info-img {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  margin-left: 25px;
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.comment-container {
+  border: 1px solid black;
+  background-color: white;
+  width: 300px;
+  margin: 10px;
+}
+
+.comment-form {
+  background-color: white;
+  height: 200px;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  margin-top: -390px;
+}
+
+.comment-list {
+  background-color: red;
+  height: 500px;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  margin-top: -175px;
+}
+
+.more-info-details-div {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  background-color: rgba(255, 255, 255, 0.856);
+  margin-left: 25px;
+  margin-top: 40px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+.stat {
+  font-size: 0.9em;
+  margin-left: 5px;
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+
+.result {
+  font-size: 1.05em;
+  font-weight: bolder;
+}
+
+.description {
+  text-align: right;
+  width: 550px;
+  font-size: 0.9em;
+  color: rgb(66, 65, 65);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.spans {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+
+.delete-btn {
+  width: 89px;
+  height: 22px;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  margin-left: 590px;
+  margin-top: -540px;
+  margin-right: 10px;
+  font-family: 'Sen', sans-serif;
+}
+
+.google-maps {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+  margin-top: -650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comment-box {
+  width: 600px;
+  height: 100px;
 }

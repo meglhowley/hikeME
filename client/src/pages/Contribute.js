@@ -126,7 +126,7 @@ class Contribute extends Component {
               value={this.state.location}
               onChange={this.handleChangeLocation}
               name={'location'}
-              placeholder={'Google Maps trailhead link (if you have it!)'}
+              placeholder={'Google Maps Trail-Head Link'}
             />
           </div>
           <div>

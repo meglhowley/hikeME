@@ -48,14 +48,17 @@ export default class CommentForm extends Component {
             placeholder="rating"
             onChange={this.handleChangeRating}
           ></input>
+          <br />
           <input
             type="text"
             value={this.state.conditions}
             placeholder="weather conditions"
             onChange={this.handleChangeConditions}
           ></input>
+          <br />
           <input
             type="text"
+            className="comment-box"
             value={this.state.comment}
             placeholder="comment"
             onChange={this.handleChangeComment}
