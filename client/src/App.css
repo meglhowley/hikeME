@@ -54,6 +54,7 @@ body {
   padding-top: 1.5%;
   height: 90vh;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .trail-container {
@@ -62,7 +63,7 @@ body {
   font-size: 0.5em;
   justify-content: center;
   border-radius: 10px;
-  width: 520px;
+  width: 500px;
   height: 325px;
   justify-content: space-between;
   background-color: white;
@@ -78,7 +79,7 @@ body {
 
 .trail-image {
   margin: 0 auto;
-  width: 520px;
+  width: 500px;
   height: 220px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;

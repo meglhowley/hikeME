@@ -44,7 +44,7 @@ export default class Home extends Component {
     this.getTrails()
     this.getAllComments()
     document.body.style.background =
-      "url('https://free4kwallpapers.com/uploads/originals/2016/06/01/jordan-pondacadia-national-park-maine-usa-wallpaper.jpg')"
+      "url('https://windows10spotlight.com/wp-content/uploads/2020/11/aa02d2d73e12d01dca40f44a35871269.jpg')"
     document.body.style.backgroundSize = 'cover'
     document.body.style.backgroundRepeat = 'no-repeat'
   }
