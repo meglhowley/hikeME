@@ -32,12 +32,10 @@ export default class Home extends Component {
   }
 
   deleteTrail = async () => {
-    console.log(this.state.trail_id)
     const res = await axios.delete(
       `${BASE_URL}/api/trails/delete/${this.state.trail_id}`
     )
     this.props.history.push('/search')
-    console.log('deleted!')
   }
 
   componentDidMount() {
@@ -50,7 +48,6 @@ export default class Home extends Component {
   }
 
   render() {
-    console.log(this.state.commentIds)
     return (
       <div>
         <Nav />

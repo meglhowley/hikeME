@@ -4,7 +4,6 @@ import CommentCard from './CommentCard'
 export default class CommentList extends Component {
   render() {
     const { commentIds, comments } = this.props
-    console.log(this.props)
     let targetedComments = []
     commentIds.forEach((id) => {
       for (let i = 0; i < comments.length; i++) {

@@ -14,7 +14,6 @@ export default class CommentCard extends Component {
     const res = await axios.delete(
       `${BASE_URL}/api/trails/${this.props.trail_id}/comments/${this.props._id}`
     )
-    console.log('deleted!')
     window.location.reload(false)
   }
 

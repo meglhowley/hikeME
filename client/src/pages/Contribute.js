@@ -43,27 +43,22 @@ class Contribute extends Component {
 
   handleChangeName = async (e) => {
     await this.setState({ name: e.target.value })
-    console.log(e.target.value)
   }
 
   handleChangeLength = async (e) => {
     await this.setState({ length: e.target.value })
-    console.log(e.target.value)
   }
 
   handleChangeElevationGain = async (e) => {
     await this.setState({ elevationGain: e.target.value })
-    console.log(e.target.value)
   }
 
   handleChangeImage = async (e) => {
     await this.setState({ image: e.target.value })
-    console.log(e.target.value)
   }
 
   handleChangeDescription = async (e) => {
     await this.setState({ description: e.target.value })
-    console.log(e.target.value)
   }
 
   componentDidMount() {
@@ -157,7 +152,6 @@ class Contribute extends Component {
             moderate
             <input
               onChange={() => {
-                console.log('hello?')
                 this.setState({ difficulty: 'hard' })
               }}
               type="radio"

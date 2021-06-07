@@ -19,7 +19,6 @@ export default class CommentForm extends Component {
       conditions: this.state.conditions,
       comment: this.state.comment
     })
-    console.log(res)
   }
 
   handleChangeRating = async (e) => {

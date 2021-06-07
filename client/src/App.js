@@ -11,7 +11,6 @@ import { withRouter } from 'react-router-dom'
 
 class App extends Component {
   render() {
-    console.log('testing123')
     return (
       <div>
         <Switch>

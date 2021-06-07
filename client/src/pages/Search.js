@@ -37,9 +37,6 @@ export default class Search extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    console.log(this.state.searchedName)
-    console.log(this.state.trails)
-    console.log('submitted!')
     this.compareSearch()
     this.setState({ searched: true })
     this.state.searchedName = ''
@@ -47,7 +44,6 @@ export default class Search extends Component {
 
   handleChange = async (e) => {
     await this.setState({ searchedName: e.target.value })
-    console.log(this.state.searchedName)
     this.setState({ searchResults: [] })
     this.setState({ searched: false })
   }
